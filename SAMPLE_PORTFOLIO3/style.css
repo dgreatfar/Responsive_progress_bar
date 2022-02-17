@@ -78,4 +78,22 @@ transition: all 0.1s;
 .card .text{
     font-size: 20px;
     font-weight: 500;
+    display: block;
+}
+
+
+/* responsive */
+
+@media(max-width: 753px){
+
+    .wrapper{
+        width: 700px;
+
+    }
+    
+    .wrapper .card{
+        width: calc(50% - 20px);
+
+    }
+    
 }
